@@ -25,9 +25,7 @@ function SayedHamedDetails() {
   useEffect(() => {
     getSayedHamed()
   }, [])
-  // if (!sayedHamed) {
-  //   return <h1>Loading...</h1>
-  // }
+
   return (
     <div>
 
